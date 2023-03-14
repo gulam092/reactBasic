@@ -4,10 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Employee from './Employee'
+import Customer from './customer';
+import ClickFunction from './clickFunction';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Employee name ="Gulam Khan"/>
+    <ClickFunction name="Gulam"/>
   </React.StrictMode>
 );
 
