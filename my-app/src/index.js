@@ -6,10 +6,13 @@ import reportWebVitals from './reportWebVitals';
 import Employee from './Employee'
 import Customer from './customer';
 import ClickFunction from './clickFunction';
+import BindingEvent from './BindingEvent';
+import Mounting1 from './Mounting1';
+import Updating1 from './Updating1';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ClickFunction name="Gulam"/>
+    <Updating1/>
   </React.StrictMode>
 );
 
